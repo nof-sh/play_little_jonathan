@@ -17,9 +17,9 @@ Run the script using Python:
 
 ```bash
 python3 play_little_jonathan.py
-
-This will play the song "Little Jonathan".
 ```
+This will play the song "Little Jonathan".
+
 
 ## Author
 
