@@ -1,7 +1,16 @@
+"""
+This script plays the song "Little Jonathan" using the sounddevice library.
+It uses the Beep function from the winsound library on Windows, and generates
+a sine wave on other platforms.
+
+The song is defined as a string of notes and durations, separated by a hyphen.
+
+author:  Nof Shabtay
+created: 2024-06-03
+"""
+
 import platform
 import time
-from pydub import AudioSegment
-from pydub.playback import play
 import numpy as np
 import sounddevice as sd
 
